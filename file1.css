@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body #main{
+    height: 100vh;
+    padding-top: 60px; 
+    background: linear-gradient(linen, white, pink);
+}
+
+body #projects {
+    height: 100vh;
+    padding-top: 60px; 
+    background: linear-gradient(#b5ffe1, #93E5AB, #65B891, #4E878C);
+}
+
+body #aboutme {
+    height: 100vh;
+    padding-top: 60px; 
+    background: linear-gradient(#b8d8ba, #D9DBBC, #FCDDBC, #EF959D);
+}
+
+#nav {
+    background-color: #333;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav button{
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+} 
+
+#achievements {
+    height: 100vh;
+    padding-top: 60px;
+    background: linear-gradient(#b8d8ba, #D9DBBC, #FCDDBC, #EF959D);
+}
+
+#contact {
+    height: 50vh;
+    padding-top: 60px;
+    background-color: #333;
+    color: white;
+}
+
+label{
+    display: block;
+    width: 100%;  /* Optional: Makes inputs stretch to full width */
+    margin-bottom: 10px; /* Adds space between elements */
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px; /* Adds space between elements */
+    border: 1px solid #ccc; /* Add a thin border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+#send {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+
+
+

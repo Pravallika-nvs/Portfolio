@@ -3,61 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file1.css">
     <title>Pravallika's Portfolio</title>
 </head>
 <body>
-    <div class = nav> 
+    <header>
+    <div id = nav> 
         <center><button><a href = "#main">Home</a></button>
         <button><a href = "#aboutme">About Myself</a></button>
         <button><a href = "#projects">My Projects</a></button>
         <button><a href = "#achievements">Achievements</a></button>
         <button><a href = "#contact">Contact Me</a></button></center>
     </div>
+    </header>
     <hr>
     <div id = main>
-        <center><h1>Pravallika's Portfolio</h1></center>
+        <h1>Pravallika's Portfolio</h1>
         <center><img id = "Pravallika" src = "girl.webp" alt = "Pravallika" width = "200"></center>
         <center><p>Hi! I am Pravallika.</p></center>
         <center><button><a href = "https://www.linkedin.com/in/pravallika-n-v-s-679466291/" target = "_blank">Connect with me</a></button></center>
     </div>
-    <hr>
     <div id = "aboutme">
-        <center><h2>About Me</h2></center>
+        <h1>About Me</h1>
         <p>Hi, I'm Pravallika, a second-year Computer Science Engineering student passionate about merging technology, creativity,
         and community service. With a deep interest in software development, generative AI, and innovative problem-solving, I
         constantly seek ways to make a positive impact on society and the environment.</p>
         <p>Beyond coding, I’m an avid writer and artist, using my creativity to share ideas, tell stories, and inspire others.
             I’ve participated in various social and literary events. I’m also a proud
-            NSS volunteer, where I actively work towards initiatives that drive meaningful change.</p>   
+            NSS volunteer, where I actively work towards initiatives that drive meaningful change.</p>
+        <br>
+        <h2>Education</h2>
+        <br>
+        <ul>
+            <li>2023-2027: B.Tech CSE at Gayatri Vidya Parishad College of Engineering (A)</li>
+            <li>2021-2023: Intermediate at Narayana Junior College</li>
+            <li>2020-2021: SSC at Pereira English Noble School</li>
+        </ul>   
+        <br>
+        <h2>Skills</h2>
+        <br>
+        <ul>
+            <li>Programming Languages: C, Java, Python</li>
+            <li>Web Development: HTML, CSS</li>
+            <li>Tools: Git, GitHub, VS Code</li>
+            <li>Soft Skills: Leadership, Communication, Teamwork</li>
+        </ul>
+        <br>
+        <h2>Interests</h2>
+        <br>
+        <ul>
+            <li>Software Development</li>
+            <li>Writing</li>
+            <li>Art</li>
+            <li>Community Service</li>
+        </ul>
+        <br>
+        <h2>Hobbies</h2>
+        <br>
+        <ul>
+            <li>Art and Crafts</li>
+            <li>Watching TV</li>
     </div>
-    <hr>
     <div id = "projects">
-        <center><h2>My Projects</h2></center>
+        <h1>My Projects</h1>
+        <br>
         <p>Here are some of the projects I've worked on:</p>
+        <br>
         <ul>
             <li><b>Project 1: </b>Campus Deals 3.0</li>
             <p>Team Leads: Mr. Harsha Vardhan Boyidapu, Ms. Bhargavi Durga Jada</p>
+            <br>
             <p>Team: Sowjanya, Syamala, Manohar, Rithika, I</p>
             <li><b>Project 2: </b>Portfolio</li>
         </ul>
     </div>
-    <hr>
     <div id = "achievements"> 
-        <center><h2>Achievements</h2></center>
+        <h1>Achievements</h1>
         <p>Here are some of my achievements:</p>
         <ul>
             <li>Edgroom's Blog Writing Competition - 8th position</li>
             <li>An active participant and won prizes in literary events hosted by our college</li>
         </ul>
     </div>
-    <hr>
     <div id = "contact">
-        <center><h2>Contact Me</h2></center>
-        <p>Feel free to reach out to me at:</p>
-        <p>Email: abc@gmail.com</p>
-        <p>Phone: 1234567890</p>
+        <center><h1>Contact Me</h1></center>
+        <form action="submission.html" method="POST">
+            <h1>Send Me a Note!</h1>
+            <section class="form-input">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+                <div>
+                    <button id = "send" type="submit">Send</button>
+                </div>
+            </section>
+        </form>
     </div>
-    <hr>
-    <center><footer>© 2025 Pravallika. All Rights Reserved.</footer></center>
+    <footer>
+        &#x2665;&#xfe0f; Made with Love by Pravallika
+        <br>
+        © 2025 Pravallika. All Rights Reserved.
+    </footer>
 </body> 
 </html>
